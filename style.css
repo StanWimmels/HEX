@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    display: inline-block;
+}
+
+#i {
+    top: 0;
+    position: absolute;
+    width: 500px;
+    visibility: hidden;
+}
+
+
+
+#myDiv {
+    height: 39.9px;
+    width: 39.9px;
+    background-color: black;
+    border:  0.1px solid red;
+
+    display: inline-grid;
+    font-size: 0;
+    margin-top: -4px;
+}
+
+#box {
+    width: 720px;
+    height: 720px;
+    margin: 0 auto;
+    cursor: pointer;
+}
